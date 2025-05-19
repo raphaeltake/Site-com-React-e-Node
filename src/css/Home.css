@@ -1,0 +1,62 @@
+.imagemCarroHome{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 10rem;
+  margin: 15rem 0rem;
+}
+
+.imagemCarroHome h1{
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  z-index: 1;
+} 
+
+.imagemCarroHome img{
+  position: absolute;
+  top: -11rem;
+  justify-content: center;
+  max-width: 50rem;
+  filter: drop-shadow(10px 15px 10px rgb(0, 0, 0));
+}
+
+.imagemCarroHome ul{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  z-index: 1;
+}
+
+
+.imagemCarroHome li{
+  font-size: 1.1rem;
+}
+
+.imagemCarroHome li:not(:first-child){
+  border-left: 2px solid var(--corBranca);
+  padding-left: 2rem;
+}
+
+
+
+
+/* .imagemCarroHome img{
+  position: absolute;
+  z-index: -1;
+  max-width: 40rem;
+} */
+
+
+
+/* .imagemCarroHome{
+  margin-top: 15rem;
+}
+
+.imagemCarroHome img{
+  position: absolute;
+  top: -18rem;
+  z-index: -1;
+  max-width: 40rem;
+} */

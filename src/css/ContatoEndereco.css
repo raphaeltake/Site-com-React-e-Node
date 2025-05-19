@@ -1,0 +1,35 @@
+.contatoEndereco{
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 5rem;
+}
+
+.paragrafoContato {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+img{
+  max-width: 2rem;
+}
+
+.contatoDestaque {
+  font-weight: bold;
+}
+
+h2{
+  margin-bottom: 1.5rem;
+}
+
+.endereco p{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.endereco p::before{
+  content: "•";
+  margin-right: 1rem;
+}

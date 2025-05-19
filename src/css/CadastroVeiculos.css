@@ -1,0 +1,42 @@
+.metadeEsquerdaVeiculo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  position: relative;
+}
+
+.metadeDireitaVeiculo{
+  position: relative;
+  padding-left: 1rem;
+}
+
+.metadeEsquerdaVeiculo{
+  padding-right: 1rem;
+}
+
+.metadeDireitaVeiculo::before{
+  content: "";
+  position: absolute;
+  border-left: 2px dashed var(--corBranca);
+  height: 20rem;
+  left: -1rem;
+}
+
+.inputImagem{
+  height: 17rem;
+  
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.imagem-preview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

@@ -1,0 +1,46 @@
+.modalCard {
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  max-height: 15rem;
+  width: 10rem;
+  z-index: 1;
+  right: 5rem;
+  top: 3rem;
+  background-color: var(--corCinza);
+}
+
+.modalCard button {
+  display: block;
+  width: 80%;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #000;
+  background-color: var(--corVerde);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.modalCard button:first-child {
+  margin-top: .5rem;
+}
+
+.modalCard button:last-child {
+  margin-bottom: .5rem;
+}
+
+.modalCard button:hover {
+  background-color: var(--corVerdeHover);
+}
+
+.modalCard a {
+  color: var(--corPreta);
+}
+
+.linkBtn {
+  color: #000;
+}

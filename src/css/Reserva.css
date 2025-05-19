@@ -1,0 +1,63 @@
+.outCardVeiculo{
+  position: relative;
+}
+
+.cardVeiculo {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-color: var(--corCinza);
+  margin: 1rem 5rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.imgVeiculo {
+  max-width: 15rem;
+}
+
+.nomeVeiculo {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.dadosVeiculos {
+  display: grid;
+  gap: 3rem;
+}
+
+.infosVeiculo {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  font-size: 1.2rem;
+}
+
+.divBtnReservar{
+  display: grid;
+  gap: 1rem;
+}
+
+.btnReservar {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #000;
+  background-color: var(--corVerde);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btnReservar:hover {
+  background-color: var(--corVerdeHover);
+}
+
+.veiculoDisponivel{
+  color: var(--corVerde);
+}
+
+.veiculoIndisponivel{
+  color: var(--corVermelha);
+}

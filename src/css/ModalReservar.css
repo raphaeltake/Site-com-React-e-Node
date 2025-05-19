@@ -1,0 +1,38 @@
+.modalVeiculos{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--corCinza);
+  padding: 2rem;
+  border-radius: .5rem;
+  z-index: 9999;
+}
+
+.headerEditar{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.headerEditar h2{
+  margin: 0;
+}
+
+.headerEditar button{
+  border: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  text-transform:uppercase;
+  padding: 0.5rem 1rem;
+  color: #000;
+  background-color: var(--corVerde);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.headerEditar button:hover{
+  background-color: var(--corVerdeHover);
+}

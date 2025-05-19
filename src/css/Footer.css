@@ -1,0 +1,30 @@
+footer{
+  display: grid;
+  width: auto;
+  height: 15rem;
+  margin-top: 10rem;
+  place-content: center;
+  background-color: var(--corCinza);
+  gap: 2rem;
+  font-size: 1.1rem;
+  color: var(--corBranca);
+}
+
+.tabelaFooter {
+  border-collapse: separate;
+  border-spacing: 3rem 1rem;
+  font-family: var(--font);
+}
+
+.tabelaFooter th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.tabelaFooter td {
+  vertical-align: top;
+}
+
+.direitos{
+  place-self: center;
+}

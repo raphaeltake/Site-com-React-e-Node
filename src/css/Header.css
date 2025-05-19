@@ -1,0 +1,61 @@
+header{
+  position: relative;
+  background-color: var(--corPreta);
+  color: var(--corBranca);
+  font-family: var(--font);
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  font-size: 1.5rem;
+  height: 7vh;
+  padding: 3rem 5rem;
+  margin-bottom: 10rem;
+}
+
+.empresa a{
+  color: var(--corBranca);
+  padding: 0.5rem;
+  transition: 0.3s;
+}
+
+.empresa a:hover{
+  color: var(--corVerdeHover);
+}
+
+.listaLinksHeader{
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.listaLinksHeader a{
+  display: inline-block;
+  font-size: 0.9rem;
+  text-transform:uppercase;
+  padding: 1rem;
+  color: #000;
+  background-color: var(--corVerde);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+}
+
+.listaLinksHeader a:hover {
+  background-color: var(--corVerdeHover);
+}
+
+.btnLogado{
+  border: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  text-transform:uppercase;
+  padding: 1rem;
+  color: #000;
+  background-color: var(--corVerde);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btnLogado:hover{
+  background-color: var(--corVerdeHover);
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@import url(./Header.css);
+@import url(./Home.css);
+@import url(./ContatoEndereco.css);
+@import url(./Footer.css);
+@import url(./Login.css);
+@import url(./Cadastro.css);
+@import url(./CadastroVeiculos.css);
+@import url(./Reserva.css);
+@import url(./Modal.css);
+@import url(./ModalReservar.css);
+
+:root{
+  --corBranca: rgb(244 244 245);
+  --corVerde: #dce775;
+  --corVerdeHover: rgba(225, 245, 97, 0.762);
+  --corPreta: rgb(24 24 27);
+  --corCinza: rgb(33, 33, 37);
+  --corVermelha: #e77575;
+  --font: "Roboto Flex", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+html{
+  max-width: 120rem;
+  /* overflow-x: hidden; */
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  justify-content: center;
+  background-color: var(--corPreta);
+  color: var(--corBranca);
+  font-family: var(--font);
+}
+
+.destaqueVerde{
+  color: var(--corVerde);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background:transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--corVerde);
+}

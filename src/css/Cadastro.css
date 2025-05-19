@@ -1,0 +1,88 @@
+.outCardCadastro{
+  display: grid;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.cardCadastro{
+  display: grid;
+  background-color: var(--corCinza);
+  border: 2px solid var(--corVerde);
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+}
+.cardCadastro h1{
+  color: var(--corVerde);
+  text-align: center;
+  margin-bottom: 2rem;
+  text-decoration: underline var(--corVerde);
+}
+
+.formCadastro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.divForm{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.divForm:not(:last-child){
+  margin-bottom: 1.5rem;
+}
+
+.label{
+  display: block;
+}
+
+.input{
+  height: 1.5rem;
+  background-color: #05060f0a;
+  border: 2px solid var(--corBranca);
+  border-radius: .2rem;
+  padding: 0 0.3rem;
+  font-size: 1rem;
+  color: var(--corBranca);
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: var(--corVerde);
+}
+
+.btnCadastro {
+  grid-column: span 2;
+  background-color: var(--corBranca);
+  color: var(--corPreta);
+  font-family: var(--font);
+  font-size: 1.2rem;
+  padding: .5rem;
+  border-radius: .3rem;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btnCadastro:hover{
+  background-color: var(--corVerde);
+}
+
+.metadeEsquerda{
+  padding-right: 1rem;
+}
+
+.metadeDireita{
+  position: relative;
+  padding-left: 1rem;
+}
+
+.metadeDireita::before{
+  content: "";
+  position: absolute;
+  border-left: 2px dashed var(--corBranca);
+  height: 15rem;
+  left: -1rem;
+}
