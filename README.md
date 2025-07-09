@@ -15,14 +15,14 @@ Esse projeto foi criado para ser uma página web de uma loja de automóveis. Nel
 
 ## Como visualizar o projeto
 1. Crie um DB no XAMPP com o nome "locadora".
-2. Na pasta "código", há um arquivo chamado ".env". Pode ser necessário modificar o database_url.
+2. Há um arquivo chamado ".env". Pode ser necessário modificar o database_url.
 3. No terminal do vsCode, digite: npx prisma db push
 4. Depois: npx prisma Studio
 5. Após isso, abra um novo terminal e digite: node --watch server.js
 6. E por fim, para exibir a interface do site, abra novamente outro terminal e digite: npm run dev
 
 ### OBS:
-Inicialmente não haverá logins no banco de dados, então utilize login: "adm" e senha: "adm". Para adicionar novos usuários, clique em "logado" em seguida "cadastrar"
+Inicialmente não haverá logins no banco de dados, então utilize login: "adm" e senha: "adm". Para adicionar novos usuários, clique em "logado" em seguida "cadastrar".
 
 ## Adicionar imagens
-Para adicionar uma imagem de um veículo, salve essa imagem na seguinte pasta: site-com-React-e-Node\código\imgVeiculos
+Para adicionar uma imagem de um veículo, salve essa imagem na seguinte pasta: site-com-React-e-Node\imgVeiculos
