@@ -25,6 +25,20 @@
   box-sizing: border-box;
 }
 
+.modalCard a{
+  margin-top: 0.5rem;
+  display: block;
+  width: 60%;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: center;
+  color: #000;
+  background-color: var(--corVerde);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+}
+
 .modalCard button:first-child {
   margin-top: .5rem;
 }

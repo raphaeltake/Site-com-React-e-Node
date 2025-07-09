@@ -11,7 +11,7 @@ const Modal = ({ modal, setModal, logado, setLogado }) => {
   if (modal)
     return (
       <div className='modalCard'>
-        <button><a href="cadastro">Cadastrar</a></button>
+        <a href="cadastro" className='btnCadastroHeader'>Cadastrar</a>
         <button onClick={Logout}>Logout</button>
         <button onClick={() => setModal(false)}>Fechar</button>
       </div>)
